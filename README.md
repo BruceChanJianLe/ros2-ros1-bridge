@@ -36,10 +36,23 @@ Usage:
  --bridge-all-2to1-topics: Bridge all ROS 2 topics to ROS 1, whether or not there is a matching subscriber.
 ```
 
-### ROS2 to ROS1
+## ROS1 to ROS2
+
+Use the command below to allow ROS1 topics to be discover by ROS2.  
+
+```bash
+ros2 run ros1_bridge --bridge-all-1to2-topics
 ```
+
+### ROS2 to ROS1
+
+Use the command below to allow ROS2 topics to be discover by ROS1.  
+
+```bash
+ros2 run ros1_bridge --bridge-all-2to1-topics
 ```
 
 ## Reference
 
 - ros1_bridge source code [link](https://github.com/ros2/ros1_bridge)
+- video on ros1_bridge roboignite [link](https://www.youtube.com/watch?v=LX-MHeqwiPI)
