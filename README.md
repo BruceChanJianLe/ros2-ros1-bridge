@@ -63,6 +63,10 @@ Use the command below to allow both ROS1 and ROS2 topics to be discovered by ROS
 ros2 run ros1_bridge --bridge-all-topics
 ```
 
+## Example
+
+If you would like to give it a try you may use the [dolly repository](https://github.com/chapulina/dolly) as an example.
+
 ## Reference
 
 - ros1_bridge source code [link](https://github.com/ros2/ros1_bridge)
