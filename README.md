@@ -9,6 +9,7 @@ This repository demonstrates the proper usage of ros1_bridge in ROS2.
 - [Usage](#Usage)
     - [ROS1 to ROS2](#ROS1-to-ROS2)
     - [ROS2 to ROS1](#ROS2-to-ROS1)
+    - [Both Direction](#Both-Direction)
 
 ## Source It Right
 
@@ -38,7 +39,7 @@ Usage:
  --bridge-all-2to1-topics: Bridge all ROS 2 topics to ROS 1, whether or not there is a matching subscriber.
 ```
 
-## ROS1 to ROS2
+### ROS1 to ROS2
 
 Use the command below to allow ROS1 topics to be discover by ROS2.  
 
@@ -52,6 +53,14 @@ Use the command below to allow ROS2 topics to be discover by ROS1.
 
 ```bash
 ros2 run ros1_bridge --bridge-all-2to1-topics
+```
+
+### Both Direction
+
+Use the command below to allow both ROS1 and ROS2 topics to be discovered by ROS1 and ROS2.  
+
+```bash
+ros2 run ros1_bridge --bridge-all-topics
 ```
 
 ## Reference
