@@ -22,7 +22,7 @@ Before running the ros1_bridge package you will have to go through a few steps.
 1. Have a roscore running
 
 **Terminal 2**  
-1. Export ROS_MASTER_URI which is obtained from terminal 1
+1. Export ROS_MASTER_URI which is obtained from terminal 1 (`export ROS_MASTER_URI=http://localhost:11311`)
 1. Source ROS1 setup.bash
 1. Source ROS2 local_setup.bash
 1. Run ros1_bridge (refer to usage section for more information)
