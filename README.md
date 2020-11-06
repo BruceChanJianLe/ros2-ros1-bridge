@@ -46,7 +46,7 @@ Usage:
 Use the command below to allow ROS1 topics to be discover by ROS2.  
 
 ```bash
-ros2 run ros1_bridge --bridge-all-1to2-topics
+ros2 run ros1_bridge dynamic_bridge --bridge-all-1to2-topics
 ```
 
 ### ROS2 to ROS1
@@ -54,7 +54,7 @@ ros2 run ros1_bridge --bridge-all-1to2-topics
 Use the command below to allow ROS2 topics to be discover by ROS1.  
 
 ```bash
-ros2 run ros1_bridge --bridge-all-2to1-topics
+ros2 run ros1_bridge dynamic_bridge --bridge-all-2to1-topics
 ```
 
 ### Both Direction
@@ -62,7 +62,7 @@ ros2 run ros1_bridge --bridge-all-2to1-topics
 Use the command below to allow both ROS1 and ROS2 topics to be discovered by ROS1 and ROS2.  
 
 ```bash
-ros2 run ros1_bridge --bridge-all-topics
+ros2 run ros1_bridge dynamic_bridge --bridge-all-topics
 ```
 
 ## Example
