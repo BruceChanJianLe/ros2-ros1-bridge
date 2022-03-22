@@ -73,3 +73,4 @@ If you would like to give it a try you may use the [dolly repository](https://gi
 
 - ros1_bridge source code [link](https://github.com/ros2/ros1_bridge)
 - video on ros1_bridge roboignite [link](https://www.youtube.com/watch?v=LX-MHeqwiPI)
+- mapping rules for ros1 and ros2 bridge [link](https://www.allisonthackston.com/articles/bridging-ros-ros2.html)
