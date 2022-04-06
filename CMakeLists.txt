@@ -51,7 +51,7 @@ set(${PROJECT_NAME}_INCLUDE_DIRECTORIES
   ${rclcpp_INCLUDE_DIRS}
   ${sensor_msgs_INCLUDE_DIRS}
   ${std_msgs_INCLUDE_DIRS}
-  $ros1_bridge_INCLUDE_DIRS}
+  ${ros1_bridge_INCLUDE_DIRS}
   ${qt_gui_cpp_INCLUDE_DIRS}
   ${rqt_gui_cpp_INCLUDE_DIRS}
   ${Qt5Widgets_INCLUDE_DIRS}
