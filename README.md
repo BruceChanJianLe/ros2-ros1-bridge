@@ -2,6 +2,8 @@
 
 This repository demonstrates the proper usage of ros1_bridge in ROS2.
 
+WARNING: THIS BRANCH DOES NOT WORK
+
 ## Content
 
 - [Content](#Content)
