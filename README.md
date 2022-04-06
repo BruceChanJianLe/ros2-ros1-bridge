@@ -69,6 +69,10 @@ ros2 run ros1_bridge dynamic_bridge --bridge-all-topics
 
 If you would like to give it a try you may use the [dolly repository](https://github.com/chapulina/dolly) as an example.
 
+## Issue
+
+Some issue with using this is when using the `node_` handle from rqt ros2, it does not seem to be able to create the bridge. May need to have a deeper look into this.
+
 ## Reference
 
 - ros1_bridge source code [link](https://github.com/ros2/ros1_bridge)
