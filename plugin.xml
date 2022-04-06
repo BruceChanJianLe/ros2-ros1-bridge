@@ -1,0 +1,19 @@
+<library path="rqt_ros2_ros1_bridge">
+  <class name="rqt_plugin/ROS2ROS1Bridge" type="rqt_plugin::ROS2ROS1Bridge" base_class_type="rqt_gui_cpp::Plugin">
+    <description>
+      RQT plugin for ROS2 to ROS1 bridge.
+    </description>
+    <qtgui>
+      <group>
+        <label>Visualization</label>
+        <icon type="theme">applications-graphics</icon>
+        <!-- Reference Link -->
+        <!-- https://gist.github.com/peteristhegreat/c0ca6e1a57e5d4b9cd0bb1d7b3be1d6a -->
+        <statustip>Custom plugin.</statustip>
+      </group>
+      <label>Check Box</label>
+      <icon type="theme">image-x-generic</icon>
+      <statustip>RQT plugin for ROS2 to ROS1 bridge.</statustip>
+    </qtgui>
+  </class>
+</library>
